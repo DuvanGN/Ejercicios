@@ -1,0 +1,28 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number"  placeholder="Número a tratar" [(ngModel)]="operandoA" name="operandoA" required/>
+        <select name="" id="" [(ngModel)]="operacion" name="operandoB" required>
+            <option value="1">Valor absoluto</option> 
+            <option value="2">Arco coseno</option>
+            <option value="3">Arco coseno hiperbólico</option>
+            <option value="4">Arco seno</option>
+            <option value="5">Arco seno hiperbólico</option>
+            <option value="6">Arco tangente</option>
+            <option value="7">Arco tangente hiperbólico</option>
+            <option value="8">Coseno de un número</option>
+            <option value="9">Raíz cúbica</option>
+            <option value="10">Logaritmo en base 10 de x</option>
+
+        </select>
+        <button type="submit" (click)="onSumar()">=</button>
+    </div>
+    <div class="solucion">
+        <span>Resultado</span>
+        <div class="resultado">
+            <p>{{ resultado }}</p>
+        </div>   
+    <div>
+</div>
+<p class="mensaje">{{ mensaje }}</p>

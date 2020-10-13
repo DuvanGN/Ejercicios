@@ -1,0 +1,38 @@
+.side-menu {
+  height: 100%;
+  width: 200px;
+  list-style-type: none;
+  background: #00ccff;
+  overflow: hidden;
+  transition: width .5s;
+}
+
+.side-menu:hover {
+  width: 210px;
+}
+
+.side-menu li {
+  width: 210px;
+}
+.side-menu .logo{
+    height: 200px;
+}
+
+.side-menu li a {
+  display: block;
+  font-size: .9rem;
+  text-decoration: none;
+  color: #FFF;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.side-menu li a:hover {
+  background: #686869;
+}
+
+.side-menu li .active {
+  background: #686869;
+}

@@ -1,0 +1,15 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number"  placeholder="Tamaño en Gigabytes" [(ngModel)]="tamano" name="tamano" />
+        <button type="submit" (click)="onCalcular()">Calcular</button>
+        <p class="mensaje">{{ mensaje }}</p>
+    </div>
+    <div class="solucion">    
+        <span>Número de CD's necesarios</span>
+        <div class="resultado">
+            <p>{{ total }}</p>
+        </div>   
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number"  placeholder="Valor 1" [(ngModel)]="operandoA" name="operandoA" required/>
+        <input type="number"  placeholder="Valor 2" [(ngModel)]="operandoB" name="operandoB" required/>
+        <select name="" id="" [(ngModel)]="operacion" name="operandoB" required>
+            <option value="sumar">Suma</option> 
+            <option value="restar">Resta</option>
+            <option value="multiplicar">Multiplicación</option>
+            <option value="dividir">División</option>
+        </select>
+        <button type="submit" (click)="onSumar()">=</button>
+    </div>
+    <div class="solucion">
+        <span>Resultado</span>
+        <div class="resultado">
+            <p>{{ resultado }}</p>
+        </div>   
+    <div>
+</div>
+<p class="mensaje">{{ mensaje }}</p>

@@ -1,0 +1,21 @@
+ .resultados {
+    background: #fee9ce;
+    border: solid 2px green;
+    border-radius: 10px;
+    min-width: 60px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ .resultados p {
+    color: green;
+    font-size: 20px;
+ }
+
+ .principal input,
+.principal select {
+   width: 40%;
+   margin: 0px 5% 15px;
+}

@@ -1,0 +1,17 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number"  placeholder="Correctas" [(ngModel)]="preCorrec" name="preCorrec" />
+        <input type="number"  placeholder="Incorrectas" [(ngModel)]="preIncorr" name="preIncorr" />
+        <input type="number"  placeholder="En Blanco" [(ngModel)]="preBlanco" name="preBlanco" />
+        <button type="submit" (click)="onCalcular()">Resultado</button>
+    </div>
+    <div class="solucion">    
+        <span>Calificación Final</span>
+        <div class="resultado">
+            <p>{{ total }}</p>
+        </div>   
+        <p>N° Respuestas ingresadas <span>{{ respuestas }}</span></p>
+    </div>
+</div>

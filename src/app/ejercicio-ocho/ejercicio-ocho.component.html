@@ -1,0 +1,83 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <div class="agrupado">
+           <p> Edad ---- Peso</p>
+        </div>
+        <div class="agrupado">
+            <p> Edad ---- Peso</p>
+        </div>
+        <div class="agrupado">
+            1
+            <input type="number" class="edad" [(ngModel)]="edad1" name="edad1" />
+            <input type="number" [(ngModel)]="numero1" name="numero1" />
+        </div>
+        <div class="agrupado">
+            2
+            <input type="number" class="edad" [(ngModel)]="edad2" name="edad2" />
+            <input type="number" [(ngModel)]="numero2" name="numero2" />
+        </div>
+        <div class="agrupado">
+            3
+            <input type="number" class="edad" [(ngModel)]="edad3" name="edad3" />
+            <input type="number" [(ngModel)]="numero3" name="numero3" />
+        </div>
+        <div class="agrupado">
+            4
+            <input type="number" class="edad" [(ngModel)]="edad4" name="edad4" />
+            <input type="number" [(ngModel)]="numero4" name="numero4" />
+        </div>
+        <div class="agrupado">
+            5
+            <input type="number" class="edad" [(ngModel)]="edad5" name="edad5" />
+            <input type="number" [(ngModel)]="numero5" name="numero5" />
+        </div>
+        <div class="agrupado">
+            6
+            <input type="number" class="edad" [(ngModel)]="edad6" name="edad6" />
+            <input type="number" [(ngModel)]="numero6" name="numero6" />
+        </div>
+        <div class="agrupado">
+            7
+            <input type="number" class="edad" [(ngModel)]="edad7" name="edad7" />
+            <input type="number" [(ngModel)]="numero7" name="numero7" />
+        </div>
+        <div class="agrupado">
+            8
+            <input type="number" class="edad" [(ngModel)]="edad8" name="edad8" />
+            <input type="number" [(ngModel)]="numero8" name="numero8" />
+        </div>
+        <div class="agrupado">
+            9
+            <input type="number" class="edad" [(ngModel)]="edad9" name="edad9" />
+            <input type="number" [(ngModel)]="numero9" name="numero9" />
+        </div>
+        <div class="agrupado">
+            10
+            <input type="number" class="edad" [(ngModel)]="edad10" name="edad10" />
+            <input type="number" [(ngModel)]="numero10" name="numero10" />
+        </div>
+
+        <button type="submit" (click)="onCalcular()">Calcular</button>
+        <p class="mensaje">{{ mensaje }}</p>
+    </div>
+    <div class="solucion">       
+        <div class="resultados">
+            <span>N° de Niños</span> <p>{{ ninos }}</p>
+            <span>Promedio</span> <p>{{ positivos }}</p>
+        </div>        
+        <div class="resultados">
+            <span>N° de  Jovenes</span> <p>{{ jovenes }}</p>
+            <span>Promedio</span> <p>{{ negativos }}</p>
+        </div>        
+        <div class="resultados">
+            <span>N° de  Adultos</span> <p>{{ adultos }}</p>
+            <span>Promedio</span> <p>{{ neutros }}</p>
+        </div>        
+        <div class="resultados">
+            <span>N° de  Ancianos</span> <p>{{ viejos }}</p>
+            <span>Promedio</span> <p>{{ total }}</p>
+        </div>
+    </div>
+</div>

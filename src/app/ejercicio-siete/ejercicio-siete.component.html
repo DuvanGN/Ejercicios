@@ -1,0 +1,34 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number" [(ngModel)]="numero1" name="numero1" />
+        <input type="number" [(ngModel)]="numero2" name="numero2" />
+        <input type="number" [(ngModel)]="numero3" name="numero3" />
+        <input type="number" [(ngModel)]="numero4" name="numero4" />
+        <input type="number" [(ngModel)]="numero5" name="numero5" />
+        <input type="number" [(ngModel)]="numero6" name="numero6" />
+
+        <button type="submit" (click)="onCalcular()">Calcular</button>
+        <p class="mensaje">{{ mensaje }}</p>
+    </div>
+    <div class="solucion">    
+        <span>N° Positivos</span>
+        <div class="resultados">
+            <p>{{ positivos }}</p>
+        </div>   
+
+        <span>N° Negativos</span>
+        <div class="resultados">
+            <p>{{ negativos }}</p>
+        </div>      
+        <span>N° Neutros</span>
+        <div class="resultados">
+            <p>{{ neutros }}</p>
+        </div>     
+        <span>TOTAL</span>
+        <div class="resultados">
+            <p>{{ total }}</p>
+        </div>   
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        Lunes: <input type="number"  placeholder="Lunes" [(ngModel)]="Lunes" name="Lunes" />
+        Martes:<input type="number"  placeholder="Martes" [(ngModel)]="Martes" name="Martes" />
+        Miercoles:<input type="number"  placeholder="Miercoles" [(ngModel)]="Miercoles" name="Miercoles" />
+        Jueves: <input type="number"  placeholder="Jueves" [(ngModel)]="Jueves" name="Jueves" />
+        Viernes: <input type="number"  placeholder="Viernes" [(ngModel)]="Viernes" name="Viernes" />
+        Sabado:<input type="number"  placeholder="Sabado" [(ngModel)]="Sabado" name="Sabado" />
+        <button type="submit" (click)="onCalcular()">Resultado</button>
+    </div>
+    <div class="solucion">    
+        <span>Recibe incentivos</span>
+        <div class="resultado">
+            <p>{{ respuestas }}</p>
+        </div>   
+        <p>N° de unidades realizadas <span>{{ total }}</span></p>
+    </div>
+</div>

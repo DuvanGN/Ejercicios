@@ -1,0 +1,45 @@
+.resultados {
+    background: #fee9ce;
+    border: solid 2px green;
+    border-radius: 10px;
+    min-width: 260px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ .resultados p {
+    color: green;
+    font-size: 20px;
+ }
+ .principal{
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .principal input {
+    width: 45%;
+    margin: 0px 5% 15px;
+    padding: 5px;
+}
+
+.principal .edad {
+    width: 30%;
+    margin: 0;
+    padding: 5px;
+ }
+
+ .principal .agrupado{
+     width: 50%;
+ }
+
+ .agrupado p{
+     margin-left: 10%;
+ }
+
+ .resultados p{
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+.contenedor-principal{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-principal{
+    width: 15vw;
+    height: 100vh;
+
+}
+.contenido-principal{
+    width: 80vw;
+    margin: 5%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    overflow: hidden;
+}

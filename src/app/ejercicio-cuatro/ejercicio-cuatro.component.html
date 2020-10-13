@@ -1,0 +1,17 @@
+<h2>{{ title }}</h2>
+<p class="descripcion">{{ descripcion }}</p>
+<div class="contenedor">
+    <div class="principal">
+        <input type="number"  placeholder="Ganados" [(ngModel)]="ganados" name="ganados" />
+        <input type="number"  placeholder="Perdidos" [(ngModel)]="perdidos" name="perdidos" />
+        <input type="number"  placeholder="Empatados" [(ngModel)]="empatados" name="empatados" />
+        <button type="submit" (click)="onCalcular()">Resultado</button>
+    </div>
+    <div class="solucion">    
+        <span>Puntaje Total</span>
+        <div class="resultado">
+            <p>{{ total }}</p>
+        </div>   
+        <p>N° Partidos Jugados <span>{{ respuestas }}</span></p>
+    </div>
+</div>
