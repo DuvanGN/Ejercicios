@@ -1,0 +1,45 @@
+.contenido-controles{
+    width: 200px;
+    margin: 5%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    overflow: hidden;
+}
+  .side-menu li {
+    width: 210px;
+  }
+  .side-menu .logo{
+      height: 100px;
+  }
+  
+  .side-menu li a {
+    display: block;
+    font-size: .9rem;
+    text-decoration: none;
+    color: #FFF;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    background: #bb28e7;
+  }
+  .side-menu li a:hover {
+    background: #02eeff;
+  }
+  
+  .side-menu li a:hover {
+    background: #686869;
+  }
+  
+  .side-menu li .active {
+    background: #686869;
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  .contiene-control{
+    display: flex;
+    justify-content: center;
+  }

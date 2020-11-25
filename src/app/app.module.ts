@@ -19,6 +19,9 @@ import { LayoutComponent } from './layout/layout.component';
 import { EjercicioSeisComponent } from './ejercicio-seis/ejercicio-seis.component';
 import { EjercicioSieteComponent } from './ejercicio-siete/ejercicio-siete.component';
 import { EjercicioOchoComponent } from './ejercicio-ocho/ejercicio-ocho.component';
+import { EjercicioNueveComponent } from './ejercicio-nueve/ejercicio-nueve.component';
+import { EjercicioDiezComponent } from './ejercicio-diez/ejercicio-diez.component';
+import { ControlEjerciciosComponent } from './control-ejercicios/control-ejercicios.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { EjercicioOchoComponent } from './ejercicio-ocho/ejercicio-ocho.componen
     LayoutComponent,
     EjercicioSeisComponent,
     EjercicioSieteComponent,
-    EjercicioOchoComponent
+    EjercicioOchoComponent,
+    EjercicioNueveComponent,
+    EjercicioDiezComponent,
+    ControlEjerciciosComponent
   ],
   imports: [
     BrowserModule,
